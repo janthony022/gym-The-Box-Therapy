@@ -1,0 +1,275 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0%;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: .5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: darkkhaki;
+    text-shadow: 2px 2px 3px black;
+    font-size: 25px;
+}
+
+a:hover {
+    color: violet;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -40px;
+}
+
+.showfeats {
+    z-index: 1;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+    color: darkkhaki;
+    display: flex;
+    font-size: 4em;
+    text-shadow: 6px 5px 4px black;
+}
+
+.about {
+    z-index: 1;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+    color: darkkhaki;
+    display: flex;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px black;
+}
+
+.aboutus {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    /* padding-bottom: %; */
+    flex-direction: column;
+    font-size: 35px;
+    color: darkkhaki;
+    text-shadow: -1px 1px 2px black;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgb(0,0,0) 40%);
+}
+
+.img {
+    padding-bottom: 100%;
+}
+
+h2 {
+    color: darkkhaki;
+    font-size: 300%;
+}
+
+img {   
+    max-height: 90%;
+}
+
+footer {
+    margin-top: 500px;
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: darkkhaki;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgb(0,0,0) 40%);
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    color: darkkhaki;
+}
+
+.trainers {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: .06em;
+}
+
+.foothead {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+}
+
+.trainer, .trainer-info {
+    color: darkkhaki;
+    display: flex;
+    text-shadow: 2px 2px 2px black;
+
+}
+.price-container {
+    color: darkkhaki;
+    margin-top: 5%;
+    text-shadow: 3px 3px 3px black;
+}
+
+.concert-container {
+    background-color: rgba(0,0,0,0.5);
+    padding: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-radius: 5;
+}
+
+th {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+
+h4 {
+    color: darkkhaki;
+    font-size: 200%;
+    ;
+}
+
+label[type=email] {
+    font-size: 150%;
+    color: darkkhaki;
+    text-align: center;
+    justify-content: center;
+}
+
+label[type=pwd] {
+    color: darkkhaki;
+    font-size: 150%;
+    text-align: center;
+    justify-content: center;
+}
+
+input[type=text], input[type=password] {
+    width: 20%;
+    margin: 5px 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.forgot {
+    padding-left: 8%;
+    font-size: 60%;
+}
+
+button[type=submit] {
+    background-color: darkkhaki;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    width: 20%; 
+    text-align: center;
+    font-size: 150%;
+}
+
+h6 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    color: darkkhaki;
+    font-size: 150%;
+}
+
+.account {
+    background-color: darkkhaki;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    width: 20%;
+    text-align: center;
+    font-size: 90%;
+}
+
+footer {
+    font-size: 100%;
+    padding: 0%;
+    align-items: center;
+    justify-content: left;
+    color: darkkhaki; 
+    line-height: 30px;
+    margin: 50px 0 10px; 
+  }
+  
+  p{
+    font-size: 82%;
+  }
